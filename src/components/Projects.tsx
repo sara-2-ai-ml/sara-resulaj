@@ -26,7 +26,7 @@ const PROJECTS = [
   {
     title: "cfoai.",
     description: "A financial AI assistant that ingests financial documents, answers questions with citations, simulates market reactions through 6 AI investor personas, and exports full insights.",
-    link: "https://cfoai-theta.vercel.app",
+    link: "https://cfoai-iqb7.vercel.app",
     github: "https://github.com/sara-2-ai-ml/cfoai",
     image: "/cfoai.png",
     tags: ["NEXT.JS", "CLAUDE API", "RAG", "CHROMADB", "OPENAI"]
