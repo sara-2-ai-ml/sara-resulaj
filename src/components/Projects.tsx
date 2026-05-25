@@ -26,9 +26,9 @@ const PROJECTS = [
   {
     title: "BTC Predictions",
     description: "Crypto price prediction dashboard with real-time charts.",
-    link: "#",
-    github: "#",
-    image: "/btc.png",
+    link: "https://neural-btc-sj2z.vercel.app/",
+    github: "https://github.com/sara-2-ai-ml/NeuralBTC",
+    image: "/btc_landingpage.png",
     tags: ["Python", "FastAPI", "Next.js", "ML"]
   },
   {

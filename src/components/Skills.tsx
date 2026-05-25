@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {
   Database, Eye, Network, Scan, Cpu, Image as ImageIcon,
   Link, Library, Brain, Terminal, Sparkles, Search,
-  Activity, Wind, GitMerge, MonitorPlay, LineChart, Zap
+  MonitorPlay, LineChart, Zap
 } from "lucide-react";
 
 type Skill = {
@@ -57,18 +57,6 @@ const CATEGORIES: { name: string; skills: Skill[] }[] = [
       { name: "OpenAI API", Icon: Sparkles, iconColor: "#412991" },
       { name: "FAISS", Icon: Search, iconColor: "#1877F2" },
       { name: "Pinecone", Icon: Database, iconColor: "#1DB954" }
-    ]
-  },
-  {
-    name: "MLOPS & CLOUD",
-    skills: [
-      { name: "Docker", iconClass: "devicon-docker-plain colored" },
-      { name: "Kubernetes", iconClass: "devicon-kubernetes-plain colored" },
-      { name: "MLflow", Icon: Activity, iconColor: "#0194E2" },
-      { name: "Airflow", Icon: Wind, iconColor: "#017CEE" },
-      { name: "AWS EC2", iconClass: "devicon-amazonwebservices-plain", iconColor: "#FF9900" },
-      { name: "Azure", iconClass: "devicon-azure-plain colored" },
-      { name: "CI/CD", Icon: GitMerge, iconColor: "#2DBA4E" }
     ]
   },
   {
@@ -134,6 +122,11 @@ export default function Skills() {
   return (
     <section id="expertise" className="py-32 px-6 md:px-12 bg-[#FFF8F5] overflow-hidden" ref={containerRef}>
       <div className="max-w-7xl mx-auto">
+        <div className="flex flex-col items-center text-center mb-20">
+          <h2 className="text-[8vw] md:text-[6vw] font-bold leading-[1.1] tracking-tight text-[#1a0a06]">
+            Skills
+          </h2>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
           {CATEGORIES.map((category, cIdx) => (
             <div key={cIdx} className="flex flex-col gap-3">
