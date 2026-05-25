@@ -8,6 +8,14 @@ import Magnetic from "./Magnetic";
 
 const PROJECTS = [
   {
+    title: "Earthquake Damage Detection",
+    description: "YOLOv11 instance segmentation trained on 2,500+ manually annotated Maxar satellite images — Mask mAP50 0.808, Recall 0.753, inference <10ms. Built for real-time disaster response after the 2023 Türkiye earthquake.",
+    link: "",
+    github: "https://github.com/sara-2-ai-ml/earthquake-building-detection",
+    image: "/earthquake website phtoo.png",
+    tags: ["YOLO", "PYTHON", "FASTAPI", "REACT", "ROBOFLOW"]
+  },
+  {
     title: "ARCHON.",
     description: "An autonomous multi-agent AI platform that finds B2B leads, researches companies, and sends hyper-personalized cold emails — with Human-in-the-Loop approval before sending.",
     link: "https://archon-ai-sales-agent-gzbd.vercel.app",
@@ -25,19 +33,11 @@ const PROJECTS = [
   },
   {
     title: "BTC Predictions",
-    description: "Crypto price prediction dashboard with real-time charts.",
+    description: "Multi-agent AI system combining a GRU deep learning model (99.7% accuracy), NLP sentiment analysis, and technical indicators — synthesized by Claude into real-time BUY/SELL/HOLD signals.",
     link: "https://neural-btc-sj2z.vercel.app/",
     github: "https://github.com/sara-2-ai-ml/NeuralBTC",
     image: "/btc_landingpage.png",
-    tags: ["Python", "FastAPI", "Next.js", "ML"]
-  },
-  {
-    title: "Earthquake Damage Detection",
-    description: "An ML system that detects collapsed buildings from satellite imagery using YOLOv11 instance segmentation — built for real-time disaster response.",
-    link: "",
-    github: "https://github.com/sara-2-ai-ml/earthquake-building-detection",
-    image: "/earthquake website phtoo.png",
-    tags: ["YOLO", "PYTHON", "FASTAPI", "REACT", "ROBOFLOW"]
+    tags: ["PYTHON", "FASTAPI", "NEXT.JS", "PYTORCH", "CLAUDE API"]
   }
 ];
 

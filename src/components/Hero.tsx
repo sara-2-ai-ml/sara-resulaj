@@ -59,10 +59,10 @@ export default function Hero() {
         {/* Skill Badges Row */}
         <div className="reveal-item flex flex-wrap gap-3 md:gap-4">
           {[
-            "YOLOv11 / Segmentation",
-            "LangChain / RAG",
-            "MLOps / Docker",
-            "PyTorch"
+          "YOLO / RF-DETR",
+          "LangChain / RAG",
+          "Multi-Agent AI",
+          "PyTorch / TensorFlow"
           ].map((skill, i) => (
             <div key={i} className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/15 bg-transparent backdrop-blur-sm">
               <span className="text-[#a3a3a3] text-xs md:text-sm font-medium">{skill}</span>
