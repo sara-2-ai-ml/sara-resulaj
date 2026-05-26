@@ -51,7 +51,6 @@ const CATEGORIES: { name: string; skills: Skill[] }[] = [
     name: "GENERATIVE AI",
     skills: [
       { name: "LangChain", Icon: Link, iconColor: "#1C3C3C" },
-      { name: "LlamaIndex", Icon: Library, iconColor: "#FFA500" },
       { name: "RAG Pipelines", Icon: Brain, iconColor: "#00BCD4" },
       { name: "Prompt Engineering", Icon: Terminal, iconColor: "#8BC34A" },
       { name: "OpenAI API", Icon: Sparkles, iconColor: "#412991" },
@@ -64,7 +63,6 @@ const CATEGORIES: { name: string; skills: Skill[] }[] = [
     skills: [
       { name: "FastAPI", iconClass: "devicon-fastapi-plain colored" },
       { name: "Flask", iconClass: "devicon-flask-original", iconColor: "#FF5733" },
-      { name: "Django", iconClass: "devicon-django-plain", iconColor: "#44B78B" },
       { name: "Gradio", Icon: MonitorPlay, iconColor: "#FF7C00" },
       { name: "Next.js", iconClass: "devicon-nextjs-original colored" }
     ]
