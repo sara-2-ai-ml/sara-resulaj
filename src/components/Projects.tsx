@@ -25,11 +25,11 @@ const PROJECTS = [
   },
   {
     title: "cfoai.",
-    description: "A financial AI assistant that ingests financial documents, answers questions with citations, simulates market reactions through 6 AI investor personas, and exports full insights.",
+    description: "A financial AI assistant that ingests PDF, Excel, and CSV documents via a hybrid RAG pipeline (BM25 + semantic search, RRF merging, cross-encoder reranking) — answers questions with exact citations, streaming, and conversation memory. RAGAS-evaluated at 98.5% faithfulness. Includes 6 AI investor personas with risk scoring and scenario analysis.",
     link: "https://cfoai-iqb7.vercel.app",
     github: "https://github.com/sara-2-ai-ml/cfoai",
     image: "/cfoai.png",
-    tags: ["NEXT.JS", "CLAUDE API", "RAG", "CHROMADB", "OPENAI"]
+    tags: ["NEXT.JS", "CLAUDE API", "HYBRID SEARCH", "CHROMADB", "OPENAI", "RAGAS"]
   },
   {
     title: "BTC Predictions",
