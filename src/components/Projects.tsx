@@ -24,13 +24,13 @@ const PROJECTS = [
     tags: ["NEXT.JS", "CLAUDE API", "TAVILY", "FIRECRAWL", "RESEND", "PRISMA"]
   },
   {
-    title: "cfoai.",
-    description: "A financial AI assistant that ingests PDF, Excel, and CSV documents via a hybrid RAG pipeline (BM25 + semantic search, RRF merging, cross-encoder reranking) — answers questions with exact citations, streaming, and conversation memory. RAGAS-evaluated at 98.5% faithfulness. Includes 6 AI investor personas with risk scoring and scenario analysis.",
-    link: "https://cfoai-iqb7.vercel.app",
-    github: "https://github.com/sara-2-ai-ml/cfoai",
-    image: "/cfoai.png",
-    tags: ["NEXT.JS", "CLAUDE API", "HYBRID SEARCH", "CHROMADB", "OPENAI", "RAGAS"]
-  },
+  title: "cfoai.",
+  description: "Financial AI that ingests PDF, Excel, and CSV via hybrid RAG (BM25 + semantic search, RRF, reranking) with citations, streaming, and memory. GraphRAG with Neo4j entity extraction, D3 knowledge graph, and parallel vector/graph retrieval. 98.5% RAGAS faithfulness. 6 AI investor personas with risk scoring and scenario analysis.",
+  link: "https://cfoai-iqb7.vercel.app",
+  github: "https://github.com/sara-2-ai-ml/cfoai",
+  image: "/cfoai.png",
+  tags: ["NEXT.JS", "CLAUDE API", "HYBRID SEARCH", "CHROMADB", "OPENAI", "RAGAS", "NEO4J", "GRAPH RAG", "D3"]
+ },
   {
     title: "BTC Predictions",
     description: "Multi-agent AI system combining a GRU deep learning model (99.7% accuracy), NLP sentiment analysis, and technical indicators — synthesized by Claude into real-time BUY/SELL/HOLD signals.",
