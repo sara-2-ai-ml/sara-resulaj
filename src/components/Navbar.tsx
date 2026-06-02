@@ -55,7 +55,7 @@ export default function Navbar() {
       
       <div className="flex-1 flex justify-end gap-6 uppercase tracking-wider font-semibold">
         <Magnetic><a href="mailto:sararesulaj40@gmail.com" className="hover:opacity-70 transition-opacity duration-300">Email</a></Magnetic>
-        <Magnetic><a href="https://www.linkedin.com/in/sara-resulaj-90878820b" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity duration-300">in</a></Magnetic>
+        <Magnetic><a href="www.linkedin.com/in/sara-r-90878820b" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity duration-300">in</a></Magnetic>
         <Magnetic><a href="https://github.com/sara-2-ai-ml" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity duration-300">gh</a></Magnetic>
       </div>
     </header>
