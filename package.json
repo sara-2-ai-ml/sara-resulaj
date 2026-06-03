@@ -18,6 +18,8 @@
     }
   },
   "dependencies": {
+    "@splinetool/react-spline": "^4.1.0",
+    "@splinetool/runtime": "^1.12.96",
     "@studio-freight/react-lenis": "^0.0.47",
     "@types/three": "^0.184.1",
     "clsx": "^2.1.1",
