@@ -5,8 +5,8 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {
   Database, Eye, Network, Scan, Cpu, Image as ImageIcon,
-  Link, Library, Brain, Terminal, Sparkles, Search,
-  MonitorPlay, LineChart, Zap
+  Link, Brain, Terminal, Sparkles, Search,
+  MonitorPlay, LineChart, Zap, Waves, AudioWaveform, Radio
 } from "lucide-react";
 
 type Skill = {
@@ -45,6 +45,15 @@ const CATEGORIES: { name: string; skills: Skill[] }[] = [
       { name: "Instance Segmentation", Icon: Scan, iconColor: "#9B59B6" },
       { name: "ONNX", Icon: Cpu, iconColor: "#005CED" },
       { name: "CVAT", Icon: ImageIcon, iconColor: "#F5A623" }
+    ]
+  },
+  {
+    name: "AUDIO ML",
+    skills: [
+      { name: "librosa", Icon: Waves, iconColor: "#00BFA5" },
+      { name: "Mel-Spectrograms", Icon: AudioWaveform, iconColor: "#FF6B6B" },
+      { name: "ONNX Runtime", Icon: Cpu, iconColor: "#005CED" },
+      { name: "Signal Processing", Icon: Radio, iconColor: "#9B59B6" }
     ]
   },
   {
@@ -95,6 +104,8 @@ export default function Skills() {
   itemsRef.current = [];
 
   useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
     const ctx = gsap.context(() => {
       // Staggered reveal for each individual skill item
       gsap.fromTo(
